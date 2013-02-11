@@ -9,7 +9,7 @@
 
 	<body>
 		<header>
-			<h1><?php bloginfo(‘name’); ?></h1>
+			<h1><?php bloginfo('name'); ?></h1>
 			<nav>
 				<ul>
 					<li>Home</li>
@@ -28,7 +28,7 @@
 				</section>
             
 			<?php endwhile; else: ?>
-				<p><?php _e( ‘Sorry, no posts matched your criteria.’ ); ?></p>
+				<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 			<?php endif; ?>
 		</section>
 
